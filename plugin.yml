@@ -1,6 +1,6 @@
 name: Graylist
 author: Lee Neighoff
-version: 2023.10.08
+version: 2023.10.08-R1
 api-version: 1.20
 main: com.muricagaming.graylist.Main
 softdepend: []

@@ -1,13 +1,10 @@
 <component name="ArtifactManager">
-  <artifact build-on-make="true" name="Graylist:jar">
+  <artifact type="jar" name="Graylist:jar">
     <output-path>$PROJECT_DIR$/../../Exported Plugins</output-path>
-    <root id="root">
-      <element id="archive" name="Graylist.jar">
-        <element id="directory" name="META-INF">
-          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-        </element>
-        <element id="module-output" name="Graylist" />
-      </element>
+    <root id="archive" name="Graylist.jar">
+      <element id="module-output" name="Graylist" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
     </root>
   </artifact>
 </component>
