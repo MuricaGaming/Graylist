@@ -1,0 +1,6 @@
+# This is the config file for Graylist.
+gamemode: "survival"
+command: "NULL"
+message: "You are not graylisted. To become a member, please apply on our website!"
+graylist: []
+offlinePlayerQueue: []

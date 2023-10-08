@@ -1,0 +1,18 @@
+name: Graylist
+main: com.muricagaming.graylist.Main
+version: 1.1
+author: Lee Neighoff
+
+commands:
+    graylist:
+      description: Command for managing Graylist.
+      aliases: [glist, gl]
+      permission: graylist.admin
+
+permissions:
+    graylist.*:
+        description: Grants full administrative capabilities.
+        default: op
+        children:
+            graylist.bypass: true
+            graylist.admin: true
